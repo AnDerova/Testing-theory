@@ -1,0 +1,118 @@
+What is Software Testing?
+Software testing is a set of activities to discover defects and evaluate the quality of software artifacts (test objects). Testing is a form of quality control (QC).
+Software testing is a process of analyzing software and accompanying documentation in order to identify defects and improve the quality of the product. 
+Testing is not only a technical activity. It also needs to be properly planned, managed, estimated, monitored and controlled
+Quality
+The degree to which a set of inherent characteristics of an object fulfils requirements.
+степень соответствия совокупности присущих характеристик объекта требованиям.
+When Do We start and Stop a Test?
+To find defects early, both static testing and dynamic testing should be started as early as possible.
+The Time’s Up! We stop testing when the time allocated for testing has expired.
+The Pi?ata. We stop the test when we see the first sufficiently dramatic problem.
+The Dead Horse. The program is too buggy to make further testing worthwhile. We know that things are going to be modified so much that any more testing will be invalidated by the changes.
+The Mission Accomplished. We stop testing when we have answered all of the questions that we set out to answer.
+The Mission Revoked. Our client has told us, “Please stop testing now.” That might be because we’ve run out of budget, or because the project has been cancelled, or any number of other things. 
+The I Feel Stuck! For whatever reason, we stop because we perceive there’s something blocking us. We don’t have the information we need (many people claim that they can’t test without sufficient specifications, for example). There’s a blocking bug, such that we can’t get to the area of the product that we want to test; we don’t have the equipment or tools we need; we don’t have the expertise on the team to perform some kind of specialized test.
+The Pause That Refreshes. Instead of stopping testing, we suspend it for a while. We might stop testing and take a break when we’re tired, or bored, or uninspired to test. We might pause to do some research, to do some planning, to reflect on what we’ve done so far, the better to figure out what to do next. The idea here is that we need a break of some kind, and can return to the product later with fresh eyes or fresh minds.
+The Flatline. No matter what we do, we’re getting the same result. This can happen when the program has crashed or has become unresponsive in some way.
+The Customary Conclusion. We stop testing when we usually stop testing. There’s a protocol in place for a certain number of test ideas, or test cases, or test cycles or variation, such that there’s a certain amount of testing work that we do, and we stop when that’s done.
+No more interesting questions. At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done. 
+The Avoidance/Indifference. Sometimes people don’t care about more information, or don’t want to know what’s going on the in the program. Some people decide to stop testing because they’re lazy, malicious, or unmotivated. Sometimes the business reasons for releasing are so compelling that no problem that we can imagine would stop shipment, so no new test result would matter.
+Test Objectives 
+Evaluating work products such as requirements, user stories, designs, and code 
+Triggering failures and finding defects 
+Ensuring required coverage of a test object 
+Reducing the level of risk of inadequate software quality 
+Verifying whether specified requirements have been fulfilled 
+Verifying that a test object complies with contractual, legal, and regulatory requirements 
+Providing information to stakeholders to allow them to make informed decisions 
+Building confidence in the quality of the test object 
+Validating whether the test object is complete and works as expected by the stakeholders 
+
+Objectives of testing can vary, depending upon the context, which includes the work product being tested, the test level, risks, the software development lifecycle (SDLC) being followed, and factors related to the business context, e.g., corporate structure, competitive considerations, or time to market.
+Типичные цели тестирования: 
+Оценка рабочих продуктов, таких как требования, пользовательские истории, проекты и код. 
+Провоцирование отказов и обнаружение дефектов. 
+Обеспечение необходимого покрытия объекта тестирования. 
+Снижение уровня риска ненадлежащего качества программного обеспечения. 
+Проверка выполнения зафиксированных требований. 
+Проверка того, что объект тестирования соответствует контрактным, юридическим и нормативным требованиям. 
+Предоставление информации заинтересованным сторонам для принятия обоснованных решений. 
+Создание уверенности в качестве объекта тестирования. 
+Проверка того, завершен ли объект тестирования и работает ли он так, как ожидают заинтересованные стороны. 
+Цели тестирования могут варьироваться в зависимости от контекста, который включает тестируемый рабочий продукт, уровень тестирования, риски, применяемый жизненный цикл разработки программного обеспечения (SDLC), а также факторы, связанные с бизнес-контекстом, например, корпоративная структура, условия конкуренции или время выхода на рынок.
+Quality Assurance (QA)
+QA is a process-oriented, preventive approach that focuses on the implementation and improvement of processes. It works on the basis that if a good process is followed correctly, then it will generate a good product. QA applies to both the development and testing processes, and is the responsibility of everyone on a project. 
+In QA test results provide feedback on how well the development and test processes are performing.
+Обеспечение качества (QA) — это превентивный подход, ориентированный на процесс, который сосредотачивается на внедрении и улучшении процессов. Он предполагает, что если правильно следовать хорошему процессу, то будет создан хороший продукт. Обеспечение качества применяется как к процессам разработки, так и к процессам тестирования, и за него несет ответственность каждый участник проекта.
+Quality Control (QC)
+QC is a product-oriented, corrective approach that focuses on those activities supporting the achievement of appropriate levels of quality. Testing is a major form of quality control. 
+In QC test results used to fix defects.
+Контроль качества (QC) — это корректирующий подход, ориентированный на продукт, который сосредотачивается на действиях, поддерживающих достижение надлежащего уровня качества. Тестирование является основным видом контроля качества.
+What is Testing?
+Testing is a form of quality control (QC).
+Testing Principles
+1. Testing shows the presence, not the absence of defects. Testing reduces the probability of defects remaining undiscovered in the test object, but even if no defects are found, testing cannot prove test object correctness. 
+2. Exhaustive testing is impossible. Testing everything is not feasible except in trivial cases. Rather than attempting to test exhaustively, test techniques, test case prioritization, and risk-based testing.
+3. Early testing saves time and money. Defects that are removed early in the process will not cause subsequent defects in derived work products. The cost of quality will be reduced since fewer failures will occur later in the SDLC. To find defects early, both static testing and dynamic testing should be started as early as possible. 
+4. Defects cluster together. A small number of system components usually contain most of the defects discovered or are responsible for most of the operational failures. This phenomenon is an illustration of the Pareto principle. 
+5. Tests wear out. If the same tests are repeated many times, they become increasingly ineffective in detecting new defects. To overcome this effect, existing tests and test data may need to be modified, and new tests may need to be written. However, in some cases, repeating the same tests can have a beneficial outcome, e.g., in automated regression testing. 
+6. Testing is context dependent. There is no single universally applicable approach to testing. Testing is done differently in different contexts. 
+7. Absence-of-defects fallacy. It is a fallacy (i.e., a misconception) to expect that software verification will ensure the success of a system. Thoroughly testing all the specified requirements and fixing all the defects found could still produce a system that does not fulfill the users’ needs and expectations, that does not help in achieving the customer’s business goals, and that is inferior compared to other competing systems. In addition to verification, validation should also be carried out.
+1. Тестирование демонстрирует наличие дефектов, а не их отсутствие. Тестирование снижает вероятность того, что дефекты в объекте тестирования останутся необнаруженными, но даже если дефекты не были обнаружены, тестирование не доказывает корректности объекта тестирования. 
+2. Исчерпывающее тестирование невозможно. Полное тестирование с использованием всех комбинаций вводов и предусловий физически невыполнимо, за исключением тривиальных случаев. Вместо того, чтобы пытаться провести исчерпывающее тестирование, следует использовать методы тестирования, расстановку приоритетов тестовых сценариев и тестирование, основанное на рисках. 
+3. Раннее тестирование экономит время и деньги. Дефекты, устраненные на ранней стадии процесса, не вызовут последующих дефектов в производных рабочих продуктах. Стоимость качества будет снижена, так как позже в ЖЦ ПО будет происходить меньше отказов. Для раннего обнаружения дефектов как можно раньше следует начинать как статическое тестирование, так и динамическое тестирование. 
+4. Кластеризация дефектов. Обычно небольшое количество системных компонентов содержит большинство обнаруженных дефектов или порождает большинство эксплуатационных отказов. Это явление является иллюстрацией принципа Парето. 
+5. Тесты устаревают. Если одни и те же тесты повторяются много раз, они становятся все более неэффективными в обнаружении новых дефектов. Для обнаружения новых дефектов может потребоваться изменение существующих тестов и тестовых данных, а также написание новых тестов. Однако в некоторых случаях повторение одних и тех же тестов может иметь положительный результат, например, при автоматизированном регрессионном тестировании. 
+6. Тестирование зависит от контекста. Не существует единого универсального подхода к тестированию. Тестирование выполняется по-разному в зависимости от контекста.
+7. Заблуждение об отсутствии дефектов. Было бы ошибкой ожидать, что верификация программного обеспечения обеспечит успех системы. Тщательное тестирование всех указанных требований и исправление всех обнаруженных дефектов может привести к созданию системы, которая не будет соответствовать потребностям и ожиданиям пользователей, не будет помогать в достижении бизнес-целей заказчика и будет уступать другим конкурирующим системам. 
+Что такое верификация?
+verification, i.e., checking whether the system meets specified requirements
+Что такое валидация?
+validation, which means checking whether the system meets users’ and other stakeholders’ needs in its operational environment.
+
+Перечислите характеристики качества программного обеспечения и их атрибуты.
+Характеристики качества программного обеспечения являются важной составляющей оценки и улучшения качества ПО. Некоторые из основных характеристик качества программного обеспечения включают в себя:
+Функциональность — способность ПО выполнять необходимые функции и соответствовать требованиям пользователя. Функциональность может быть измерена с помощью тестирования функциональности.
+Надежность — способность ПО работать стабильно и предсказуемо в различных условиях. Надежность может быть измерена с помощью тестирования стабильности и надежности ПО.
+Эффективность — способность ПО выполнять свои функции быстро и с минимальным использованием ресурсов. Эффективность может быть измерена с помощью тестирования производительности.
+Удобство использования — способность ПО быть легким в использовании для конечного пользователя. Удобство использования может быть измерено с помощью тестирования пользовательского интерфейса и UX-тестирования.
+Сопровождаемость — способность ПО быть легко изменяемым и сопровождаемым после его выпуска. Сопровождаемость может быть измерена с помощью тестирования обновлений и модификаций ПО.
+Совместимость — способность ПО работать с другими системами и программным обеспечением. Совместимость может быть измерена с помощью тестирования совместимости.
+Безопасность — способность ПО защищать данные и систему от внешних угроз. Безопасность может быть измерена с помощью тестирования безопасности и аудита безопасности.
+Поддерживаемость — способность ПО быть поддерживаемым и обслуживаемым с помощью документации и справочной информации. Поддерживаемость может быть измерена с помощью тестирования документации и руководства пользователя.
+
+Из каких этапов состоит Waterfall model? Преимущества и недостатки
+Водопадная модель (waterfall model) применяется в авиастроении, военной или космической отраслях, медицине и финансовом секторе. Она предполагает однократное выполнение каждой из фаз проекта, которые, в свою очередь, строго следуют друг за другом:
+
+Анализ требований => Планирование => Дизайн => Разработка => Тестирование => Ввод в эксплуатацию => Поддержка
+
+Очень упрощенно можно сказать, что в рамках этой модели в любой момент времени команде «видна» лишь предыдущая и следующая фаза. В реальной же разработке ПО приходится «видеть весь проект целиком» и возвращаться к предыдущим фазам, чтобы исправить недоработки или что-то уточнить. 
+К недостаткам водопадной модели принято относить тот факт, что участие пользователей ПО в ней либо не предусмотрено вообще, либо предусмотрено лишь косвенно на стадии однократного сбора требований. С точки зрения же тестирования эта модель плоха тем, что тестирование в явном виде появляется здесь лишь с середины развития проекта, достигая своего максимума в самом конце. Зато бюджет известен заранее!
+
+Из каких этапов состоит V-model? Когда использовать V-model?
+V-модель (V-model): Модель, описывающая процессы жизненного цикла разработки программного обеспечения с момента составление спецификации требований до этапа сопровождения. V модель показывает интеграцию процессов тестирования в каждую фазу цикла разработки программного обеспечения. 
+V-образная модель (V-model) является логическим развитием водопадной. Очень упрощенно можно сказать, что при использовании v-образной модели на каждой стадии «на спуске» нужно думать о том, что и как будет происходить на соответствующей стадии «на подъёме». Тестирование здесь появляется уже на самых ранних стадиях развития проекта, что позволяет минимизировать риски, а также обнаружить и устранить множество потенциальных проблем до того, как они станут проблемами реальными.
+
+V-образная модель часто используется в разработке критически важных систем, таких как авиационные, автомобильные, медицинские и другие системы, где ошибки могут иметь серьезные последствия.
+В отраслях с строгими регуляторными требованиями, таких как фармацевтика, финансовые услуги и телекоммуникации, V-образная модель помогает удовлетворить требования к документированию и валидации процессов.
+
+Iterative mode
+Ключевой особенностью данной модели является разбиение проекта на относительно небольшие промежутки (итерации), каждый из которых в общем случае может включать в себя все классические стадии, присущие водопадной и v-образной моделям. Итогом итерации является приращение (инкремент) функциональности продукта. Итеративная модель разработки ПО эффективна для проектов, где требования могут изменяться и уточняться в процессе разработки, и где важна гибкость и адаптивность
+
+Анализ требований => Планирование => Дизайн => Разработка => Тестирование => Ввод в эксплуатацию (Deployment)  => Оценка и обратная связь => Планирование следующей итерации
+
+Преимущества итеративной модели:
+Гибкость: Возможность адаптации к изменяющимся требованиям и улучшения системы в каждой итерации.
+Управляемость рисками: Риски выявляются и управляются на ранних стадиях благодаря постоянному тестированию и обратной связи.
+Постепенное улучшение: Возможность поэтапного наращивания функциональности и качества системы.
+Ранняя проверка концепций: Раннее выявление и исправление ошибок, что способствует улучшению конечного продукта.
+Недостатки итеративной модели:
+Требует дисциплины: Необходимость строгого управления процессом и документацией.
+Может быть сложной: Возможность увеличения сложности управления проектом с увеличением количества итераций.
+Затраты времени и ресурсов: Многократное прохождение всех этапов разработки может потребовать больше времени и ресурсов.
+Agile - это?
+Agile манифест - это?
+Какие ценности Agile манифест?
+Основные принципы Agile манифест?
+
